@@ -64,6 +64,14 @@ only_recursion_depth: null
 prepend_primary: false
 cluster: false
 splines: spline
+models:
+  User:
+    node_attributes:
+      style: filled
+      fillcolor: red
+  Widget:
+    node_attributes:
+      fontsize: 20
 ```
 
 Auto generation
